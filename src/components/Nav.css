@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+
+.body {
+    width: 100vw;
+    background-color: white;
+
+}
+
+#search {
+    box-shadow: none;
+    all: unset;
+    padding-bottom: 10px;
+    transition: .2s;
+    width: 85vw;
+    text-align: center;
+    caret-color: transparent;
+    border-bottom: 0px solid rgb(207, 207, 207);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+
+}
+
+#search:hover {
+    border-bottom: 4px solid rgb(207, 207, 207);
+}
+
+#search:focus {
+    border-bottom: 5px solid rgb(95, 95, 95);
+}
+
+#search[type="search"] {
+    font-size: 300%;
+    font-family: "Merienda", cursive;
+}
